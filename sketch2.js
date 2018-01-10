@@ -1,11 +1,11 @@
 function setup() {
 	createCanvas(windowWidth, windowHeight);
-	background('#101010');
 
 }
 
 function draw() {
 
+	background('#101010');
 	if (mouseIsPressed) {
 		fill(random(255),random(255),random(255),50)
 	} else{
