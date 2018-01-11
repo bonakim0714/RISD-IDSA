@@ -32,5 +32,5 @@ function mouseClicked(){
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight,);
+  resizeCanvas(windowWidth, windowHeight,[redraw]);
 }
