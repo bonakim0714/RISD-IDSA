@@ -5,8 +5,9 @@ function setup() {
 var style = 0;
 
 function draw() {
-  fill('#101010');
-  stroke(255,80);;
+  	background('#101010');
+	fill('#101010');
+  	stroke(255,80);;
 
 
 	// if (mouseIsPressed) {
@@ -32,5 +33,5 @@ function mouseClicked(){
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight,[redraw]);
+  resizeCanvas(windowWidth, windowHeight,[noredraw]);
 }
