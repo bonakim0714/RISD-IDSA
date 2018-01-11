@@ -4,16 +4,9 @@ function setup() {
 }
 var style = 0;
 
-
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight,[noRedraw]);
-}
-
-
 function draw() {
-  	background('#101010');
-	fill('#101010');
-  	stroke(255,80);;
+  fill('#101010');
+  stroke(255,80);
 
 
 	// if (mouseIsPressed) {
@@ -23,11 +16,12 @@ function draw() {
 	// 	stroke(255,80);
 	// }
 
-  if (style == 1){
+  if(style == 0){
+  } else if (style == 1){
      fill(random(255),random(255),random(255),50);
    }
 
-  ellipse(mouseX, mouseY, 120, 120);
+       ellipse(mouseX, mouseY, 120, 120);
 }
 
 function mouseClicked(){
@@ -38,3 +32,6 @@ function mouseClicked(){
   }
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
