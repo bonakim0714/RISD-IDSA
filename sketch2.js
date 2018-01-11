@@ -4,6 +4,12 @@ function setup() {
 }
 var style = 0;
 
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight,[noredraw]);
+}
+
+
 function draw() {
   	background('#101010');
 	fill('#101010');
@@ -32,6 +38,3 @@ function mouseClicked(){
   }
 }
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight,[noredraw]);
-}
