@@ -6,7 +6,7 @@ var style = 0;
 
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight,[noredraw]);
+  resizeCanvas(windowWidth, windowHeight,[noRedraw]);
 }
 
 
