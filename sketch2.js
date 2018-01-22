@@ -5,7 +5,7 @@ function setup() {
 var style = 0;
 
 function draw() {
-  fill('#101010');
+  fill(random(10),random(255),random(50),50);
   stroke(255,80);
 
 
@@ -18,7 +18,7 @@ function draw() {
 
   if(style == 0){
   } else if (style == 1){
-     fill(random(255),random(255),random(255),50);
+     fill('#101010');
    }
 
        ellipse(mouseX, mouseY, 120, 120);
