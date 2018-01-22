@@ -6,7 +6,7 @@ var style = 0;
 
 function draw() {
   fill(random(10),random(255),random(50),50);
-  stroke(255,80);
+  stroke(255,90);
 
 
 	// if (mouseIsPressed) {
